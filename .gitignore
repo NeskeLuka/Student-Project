@@ -1,0 +1,85 @@
+####################################
+# Build output
+####################################
+bin/
+obj/
+out/
+
+####################################
+# Visual Studio
+####################################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+####################################
+# Rider / VS Code
+####################################
+.idea/
+.vscode/
+
+####################################
+# ASP.NET Core
+####################################
+appsettings.Development.json
+appsettings.Local.json
+
+####################################
+# EF Core
+####################################
+Migrations/**/MigrationsSnapshot.cs
+
+####################################
+# Node / Frontend (ako postoji)
+####################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+####################################
+# Static build output (ako ikad dodaš frontend)
+####################################
+wwwroot/dist/
+wwwroot/build/
+
+####################################
+# OS files
+####################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+####################################
+# Logs
+####################################
+*.log
+logs/
+
+####################################
+# Temporary files
+####################################
+*.tmp
+*.bak
+*.swp
+*.lock
+
+####################################
+# wwwroot generated files
+####################################
+wwwroot/lib/
+wwwroot/dist/
+wwwroot/build/
+wwwroot/**/dist/
+wwwroot/**/build/
+wwwroot/**/*.min.js
+wwwroot/**/*.min.css
+
+####################################
+# wwwroot libraries (Bootstrap, jQuery, etc.)
+####################################
+wwwroot/lib/
