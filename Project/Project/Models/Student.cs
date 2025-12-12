@@ -8,5 +8,7 @@
         public string JMBG { get; set; } = string.Empty;
         public string Indeks { get; set; } = string.Empty;
         public int SmerId { get; set; }
+        public Smer Smer { get; set; }=new Smer();
+        public List<StudentiPredmeti> StudentiPredmeti { get; set; } = new List<StudentiPredmeti>();
     }
 }

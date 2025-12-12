@@ -6,5 +6,6 @@
         public string Ime { get; set; } = string.Empty;
         public string Prezime {  get; set; } = string.Empty;
         public string Zvanje {  get; set; } = string.Empty;
+        public List<ProfesoriPredmeti> ProfesoriPredmeti { get; set; }= new List<ProfesoriPredmeti>();
     }
 }
